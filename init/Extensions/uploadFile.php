@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
-//Rovun Light Blog, Copyright (C)   2010 - 2011  www.rovun.com 
-//EMAIL:rovun@foxmail.com
-//$Id: uploadFile.php 7 2011-09-20 15:02:20Z anythink $ 
+//优云开源轻博, Copyright (C)   2010 - 2011  www.rovun.com 
+//EMAIL:rovun@foxmail.com     Q群:329354214
+//$Id: uploadFile.php 7 2011-09-20 15:02:20Z rovun $ 
 
 class uploadFile {
 
@@ -212,6 +212,7 @@ class uploadFile {
 					{
 						$imghd = spClass('image');
 						$imghd->load($this->uploaded);
+						// $imghd->waterMark($this->mark_src);
 						$imghd->save($this->uploaded);
 					}	
 					
