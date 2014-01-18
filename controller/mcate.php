@@ -1,8 +1,8 @@
 <?php
 /////////////////////////////////////////////////////////////////
-//云边开源轻博, Copyright (C)   2010 - 2011  qing.thinksaas.cn 
-//EMAIL:nxfte@qq.com QQ:234027573                              
-//$Id: mcate.php 6 2011-09-20 14:50:50Z anythink $ 
+//优云开源轻博, Copyright (C)   2010 - 2011  www.rovun.com 
+//EMAIL:rovun@foxmail.com     Q群:329354214                              
+//$Id: mcate.php 6 2011-09-20 14:50:50Z rovun $ 
 
 class mcate extends spController
 {
