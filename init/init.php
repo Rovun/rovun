@@ -4,9 +4,9 @@
 /////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////
-//云边开源轻博, Copyright (C)   2010 - 2011  qing.thinksaas.cn
-//EMAIL:nxfte@qq.com QQ:234027573
-//$Id: init.php 39 2011-11-04 06:37:01Z anythink $
+//优云开源轻博, Copyright (C)   2010 - 2011  www.rovun.com 
+//EMAIL:rovun@foxmail.com     Q群:329354214
+//$Id: init.php 39 2011-11-04 06:37:01Z rovun $
 
 define('SP_VERSION', '3.1.66'); // 当前框架版本
 /**
@@ -97,13 +97,13 @@ if(!spAccess('r','ybconfig')){  //读取设置
 if( '' == $site_uri ){ $site_uri = 'http://'.$_SERVER["HTTP_HOST"]; 	}else{ $site_uri = 'http://'.$_SERVER["HTTP_HOST"].'/'.$site_uri; }
 
 $GLOBALS['YB'] = $ybconfig;
-$GLOBALS['YB']['version'] = '1.0β build 1111';
-$GLOBALS['YB']['soft'] = '云边轻博';
-$GLOBALS['YB']['url'] = 'http://qing.thinksaas.cn';
-$GLOBALS['YB']['email'] = 'nxfte@qq.com';
+$GLOBALS['YB']['version'] = '1.0';
+$GLOBALS['YB']['soft'] = '优云轻博';
+$GLOBALS['YB']['url'] = 'http://www.ineosn.com';
+$GLOBALS['YB']['email'] = 'rovun@foxmail.com';
 $GLOBALS['YB']['copyright'] = 'FreeBSD License';
 $GLOBALS['YB']['year'] = '2011 - '.date('Y',time());
-$GLOBALS['YB']['author'] = '幻の羽翼';
+$GLOBALS['YB']['author'] = 'Rovun';
 $GLOBALS['YB']['uri'] =  $site_uri;
 $GLOBALS['uri'] = $site_uri;
 
