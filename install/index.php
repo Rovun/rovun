@@ -1,9 +1,9 @@
 <?php
 
 /////////////////////////////////////////////////////////////////
-//云边开源轻博, Copyright (C)   2010 - 2011  qing.thinksaas.cn
-//EMAIL:nxfte@qq.com QQ:234027573
-//$Id: index.php 43 2011-11-06 08:19:05Z anythink $
+//优云开源轻博, Copyright (C)   2010 - 2011  www.rovun.com 
+//EMAIL:rovun@foxmail.com     Q群:329354214
+//$Id: index.php 43 2011-11-06 08:19:05Z rovun $
 
 define("APP_PATH",substr(dirname(__FILE__),0,-8));
 define('IN_APP',TRUE);
@@ -297,10 +297,10 @@ function setUserInfo()
 
 	$sql = "INSERT INTO `".$pre."setting` (`name`, `val`) VALUES
 										('site_title', '{$po['site_title']}'),
-										('site_desc', '又一个云边轻博客系统诞生'),
+										('site_desc', '又一个优云轻博客系统诞生'),
 										('site_count', ''),
 										('site_titlepre', '{$po['site_titlepre']}'),
-										('site_keyword', '云边,yunbian,PHP,MYSQL,轻博客,开源,轻博,qing,开源轻博,开源轻博客'),
+										('site_keyword', '优云,rovun,PHP,MYSQL,轻博客,开源,轻博,qing,开源轻博,开源轻博客'),
 										('site_icp', ''),
 										('openlogin_qq_appid', ''),
 										('openlogin_qq_appkey', ''),
@@ -321,7 +321,7 @@ function setUserInfo()
 										('mail_open', '0'),
 										('mail_debug', '1'),
 										('mail_from', ''),
-										('mail_fromname', '云边轻博'),
+										('mail_fromname', '优云轻博'),
 										('mail_host', ''),
 										('mail_port', ''),
 										('mail_user', ''),
@@ -329,9 +329,9 @@ function setUserInfo()
 										('theme_uploadsize', '1048576'),
 										('theme_upload', '1'),
 										('theme_uploadtype', 'jpg,png,gif'),
-										('keep_email', 'admin,yunbian'),
-										('keep_niname', 'yunbian,admin,administrator,master,webmaster,email,username,password'),
-										('keep_domain', 'www,yunbian,bbs,music,map,index,register,login,tag,now,admin,recommend,discovery,myfollow,mypost,mylikes,myreplays,mynotices,edit,logout,home,gomember,location,showinfo,about,copyright,call,service,privacy,custom,read'),
+										('keep_email', 'admin,rovun'),
+										('keep_niname', 'rovun,admin,administrator,master,webmaster,email,username,password'),
+										('keep_domain', 'www,rovun,bbs,music,map,index,register,login,tag,now,admin,recommend,discovery,myfollow,mypost,mylikes,myreplays,mynotices,edit,logout,home,gomember,location,showinfo,about,copyright,call,service,privacy,custom,read'),
 										('keep_rep', '操你妈,艹你妈'),
 										('show_page_mode', '1'),
 										('show_ajax_to', '4'),
