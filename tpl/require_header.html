@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-cn">
 <head>
-    <title>{if $titlepre}{$titlepre} -{/if} {$title} {$yb.site_title} - {$yb.site_titlepre} - Rovun Light Blog</title>
+    <title>{if $titlepre}{$titlepre} -{/if} {$title} {$yb.site_title} - {$yb.site_titlepre} - {$yb.soft} </title>
     <meta charset="utf-8" />
     <meta name="author" content="{$yb.author}" />
     <meta name="description" content="{$yb.site_desc}" />
@@ -26,7 +26,7 @@
         <li {if $CurrentModule=='recommend'}class="current"{/if}><a href="{spUrl c=main a=recommend}">推荐</a>{if $CurrentModule=='recommend'}<div class="nav_arrow"></div>{/if}</li>
         <li {if $CurrentModule=='discover'}class="current"{/if}><a href="{spUrl c=main a=discovery}">发现</a>{if $CurrentModule=='discover'}<div class="nav_arrow"></div>{/if}</li>
         <li {if $CurrentModule=='now'}class="current"{/if}><a href="{spUrl c=main a=now}">此刻</a>{if $CurrentModule=='now'}<div class="nav_arrow"></div>{/if}</li>
-        <!--<li><a href="{$url}/group.php"  target="_blank">论坛</a></li>-->
+        <li><a href="http://www.rovun.com"  target="_blank">问答</a></li>
 
 	</div>
 
