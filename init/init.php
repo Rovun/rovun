@@ -98,7 +98,7 @@ if( '' == $site_uri ){ $site_uri = 'http://'.$_SERVER["HTTP_HOST"]; 	}else{ $sit
 
 $GLOBALS['YB'] = $ybconfig;
 $GLOBALS['YB']['version'] = '1.0';
-$GLOBALS['YB']['soft'] = 'INEOSN light blog';
+$GLOBALS['YB']['soft'] = 'INEOSN Light Blog';
 $GLOBALS['YB']['url'] = 'http://www.ineosn.com';
 $GLOBALS['YB']['email'] = 'rovun@foxmail.com';
 $GLOBALS['YB']['copyright'] = 'FreeBSD License';
