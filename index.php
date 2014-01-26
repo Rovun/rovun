@@ -2,7 +2,8 @@
 /////////////////////////////////////////////////////////////////
 //优云开源轻博, Copyright (C)   2010 - 2011  www.rovun.com 
 //EMAIL:rovun@foxmail.com     Q群:329354214    
-//$Id: index.php 29 2011-10-14 05:54:29Z rovun $
+//$Id: index.php 29 2011-10-14 05:54:29Z 
+vun $
 
 
 define('APP_PATH',dirname(__FILE__));
