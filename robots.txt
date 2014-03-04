@@ -1,0 +1,20 @@
+#
+# robots.txt for rovunmusic
+#
+
+User-agent: *
+
+Disallow: /add_suc.asp/
+Disallow: /del_suc.asp/
+Disallow: /edit_suc.asp/
+Disallow: /musicaddselect.html/
+Disallow: /musicdelselect.html/
+Disallow: /select.html/
+Disallow: /addin.asp/
+Disallow: /dellist.asp/
+Disallow: /edit.asp/
+Disallow: /editlist.asp/
+Disallow: /musicdel.html/
+Disallow: /musiceditselect.html/
+Disallow: /musicadd.html/
+Disallow: /musicedit.html/
